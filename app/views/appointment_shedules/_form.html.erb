@@ -1,0 +1,15 @@
+<%= simple_form_for(@appointment_shedule) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.input :department %>
+    <%= f.input :patient_type %>
+    <%= f.input :doctor_id %>
+    <%= f.input :shedule_date_time %>
+    <%= f.input :patient_problems %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

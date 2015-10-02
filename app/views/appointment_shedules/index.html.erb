@@ -1,0 +1,31 @@
+<h1>Listing appointment_shedules</h1>
+
+<table>
+  <tr>
+    <th>Department</th>
+    <th>Patient type</th>
+    <th>Doctor</th>
+    <th>Shedule date time</th>
+    <th>Patient problems</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @appointment_shedules.each do |appointment_shedule| %>
+  <tr>
+    <td><%= appointment_shedule.department %></td>
+    <td><%= appointment_shedule.patient_type %></td>
+    <td><%= appointment_shedule.doctor_id %></td>
+    <td><%= appointment_shedule.shedule_date_time %></td>
+    <td><%= appointment_shedule.patient_problems %></td>
+    <td><%= link_to 'Show', appointment_shedule %></td>
+    <td><%= link_to 'Edit', edit_appointment_shedule_path(appointment_shedule) %></td>
+    <td><%= link_to 'Destroy', appointment_shedule, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Appointment shedule', new_appointment_shedule_path %>

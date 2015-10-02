@@ -1,0 +1,2 @@
+module AppointmentShedulesHelper
+end

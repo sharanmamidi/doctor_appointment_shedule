@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  department: MyString
+  patient_type: MyString
+  doctor_id: 1
+  shedule_date_time: 2015-10-02 14:47:45
+  patient_problems: MyText
+
+two:
+  department: MyString
+  patient_type: MyString
+  doctor_id: 1
+  shedule_date_time: 2015-10-02 14:47:45
+  patient_problems: MyText

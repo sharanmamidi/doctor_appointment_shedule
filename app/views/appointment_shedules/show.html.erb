@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Department:</b>
+  <%= @appointment_shedule.department %>
+</p>
+
+<p>
+  <b>Patient type:</b>
+  <%= @appointment_shedule.patient_type %>
+</p>
+
+<p>
+  <b>Doctor:</b>
+  <%= @appointment_shedule.doctor_id %>
+</p>
+
+<p>
+  <b>Shedule date time:</b>
+  <%= @appointment_shedule.shedule_date_time %>
+</p>
+
+<p>
+  <b>Patient problems:</b>
+  <%= @appointment_shedule.patient_problems %>
+</p>
+
+
+<%= link_to 'Edit', edit_appointment_shedule_path(@appointment_shedule) %> |
+<%= link_to 'Back', appointment_shedules_path %>

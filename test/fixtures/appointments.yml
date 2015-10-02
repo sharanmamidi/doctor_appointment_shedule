@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  date: 2015-10-02
+  patient_name: MyString
+  age: MyString
+  sex: MyString
+  address: MyText
+  email: MyString
+
+two:
+  date: 2015-10-02
+  patient_name: MyString
+  age: MyString
+  sex: MyString
+  address: MyText
+  email: MyString
