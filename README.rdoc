@@ -1,0 +1,34 @@
+== Run Application 
+
+Dependencies
+-----------------
+
+Install ruby  and Ruby on Rails
+====================================
+==
+
+$ sudo apt-get install ruby-full build-essential rubygems
+
+$ sudo apt-get install libmysql-ruby libmysqlclient-dev
+
+$ sudo gem install rails -v=3.2.13 --include-dependencies
+
+==
+
+Once installation is done, clone the project from Github repository
+===
+In Terminal/Command Prompt
+===
+
+
+===
+
+git clone https://github.com/sharanmamidi/doctor_appointment_shedule.git
+cd doctor_appointment_shedule
+bundle install
+rails s   -- to start rails server 
+
+
+====
+
+Open Application in browser by accessing http://localhost:3000
