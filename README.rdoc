@@ -23,12 +23,12 @@ In Terminal/Command Prompt
 
 ===
 
-git clone https://github.com/sharanmamidi/doctor_appointment_shedule.git
-cd doctor_appointment_shedule
-bundle install
-rails s   -- to start rails server 
+$ git clone https://github.com/sharanmamidi/doctor_appointment_shedule.git
+$ cd doctor_appointment_shedule
+$ bundle install
+$ rails s   -- to start rails server 
 
 
 ====
 
-Open Application in browser by accessing http://localhost:3000
+Open Application in browser by accessing  ---  http://localhost:3000
